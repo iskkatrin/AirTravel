@@ -61,5 +61,6 @@ public class Main {
         result = processor.filterFlights(flights);
         assert result.size() == 3 : "Тест не пройден: Несколько фильтров. Ожидалось 3, получено " + result.size();
         System.out.println("Тест с несколькими фильтрами пройден.");
+
     }
 }
